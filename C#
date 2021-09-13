@@ -1,0 +1,275 @@
+//need to finish right path
+using System;
+
+namespace text_adventure
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello... um... ");
+            Console.Write("What Is your name: ");
+            string name = Console.ReadLine();
+            Console.WriteLine($"Hello, {name}! Welcome to SAO.");
+
+            Console.WriteLine("You have started a new adventure on this MMORPG but this MMORPG isnt like any game you have played before. but before we get to that lets get you started.");
+
+            Console.Write("What Class do you choise (WARRIOR, MAGE or ARCHER). Witch do you choise: ");
+            string classChoice = Console.ReadLine();
+            classChoice = classChoice.ToUpper();
+
+            //_________________________________________________________________________________________________________________________________________________________________________________________
+            //story path 1 
+
+            if (classChoice == "WARRIOR")
+            {
+                Console.WriteLine("Great choice you are now a Warrior");
+                Console.WriteLine("Now as a Warrior what weapon do you Choise.");
+                Console.Write("your options are LONG SWORD or BATTLE AXE: ");
+                string classOne = Console.ReadLine();
+                classOne = classOne.ToUpper();
+
+                //story 1 part 2 Weapon
+                if (classOne == "LONG SWORD")
+                {
+                    Console.WriteLine("Your Weapon is now a Long Sword");
+                    Console.WriteLine("Your Adventure will now begin");
+                    Console.WriteLine("...  ....  ........");
+                    Console.WriteLine("You yell as you fall to the ground. BANG");
+                    Console.WriteLine("your fine but you dont know where you are.");
+                    Console.Write("Do you walk LEFT or RIGHT: ");
+                    string classOnedirection = Console.ReadLine();
+                    classOnedirection = classOnedirection.ToUpper();
+
+                    //Left path      all left outcomes are the same
+                    if (classOnedirection == "LEFT")
+                    {
+                        Console.WriteLine("You start feeling hungry.");
+                        Console.WriteLine("as your walking you see a wild boar");
+                        Console.WriteLine("you start chasing it not paying attention to your surronding and run off a cliff.");
+                        Console.WriteLine("THE END.");
+                    }
+                //Right path            all right paths are the same
+                    else if (classOnedirection == "RIGHT")
+                    {
+                        Console.WriteLine("You start feeling hungry");
+                        Console.WriteLine("You find a Tree with some weird looking fruit on it");
+                        Console.Write("Type TAKE if you would eat it or LEAVE if you wouldnt take the chance: ");
+
+
+
+
+                    }
+
+                }
+
+                else if (classOne == "BATTLE AXE")
+                {
+                    Console.WriteLine("Your Weapon is now a Battle Axe");
+                    Console.WriteLine("Your Adventure will now begin");
+                    Console.WriteLine("...  ....  ........");
+                    Console.WriteLine("You yell as you fall to the ground. BANG");
+                    Console.WriteLine("your fine but you dont know where you are.");
+                    Console.Write("Do you walk LEFT or RIGHT: ");
+                    string classOnedirection = Console.ReadLine();
+                    classOnedirection = classOnedirection.ToUpper();
+
+
+                 //Left path      all left outcomes are the same
+                    if (classOnedirection == "LEFT")
+                    {
+                        Console.WriteLine("You start feeling hungry.");
+                        Console.WriteLine("as your walking you see a wild boar");
+                        Console.WriteLine("you start chasing it not paying attention to your surronding and run off a cliff.");
+                        Console.WriteLine("THE END.");
+                    }
+
+                //Right path            all right paths are the same
+                    else if (classOnedirection == "RIGHT")
+                    {
+                        Console.WriteLine("You start feeling hungry");
+                        Console.WriteLine("You find a Tree with some weird looking fruit on it");
+                        Console.Write("Type TAKE if you would eat it or LEAVE if you wouldnt take the chance: ");
+
+
+
+
+                    }
+                }
+            }
+            //_________________________________________________________________________________________________________________________________________________________________________________________
+            //story path 2
+                else if (classChoice == "MAGE")
+            {
+                Console.WriteLine("Very good choise the Mage is my favorite");
+                Console.WriteLine("Now as a Mage you have to pick a Good Spell");
+                Console.Write("Your Options are FIRE MAGIC or WATER MAGIC: ");
+                string classTwo = Console.ReadLine();
+                classTwo = classTwo.ToUpper();
+
+            //story 2 part 2 Weapon
+
+                if (classTwo == "FIRE MAGIC")
+                {
+                    Console.WriteLine("Your Magic is now a FireMagic");
+                    Console.WriteLine("Your Adventure will now begin");
+                    Console.WriteLine("...  ....  ........");
+                    Console.WriteLine("You yell as you fall to the ground. BANG");
+                    Console.WriteLine("your fine but you dont know where you are.");
+                    Console.Write("Do you walk LEFT or RIGHT: ");
+                    string classTwodirection = Console.ReadLine();
+                    classTwodirection = classTwodirection.ToUpper();
+
+                //Left options      all left outcomes are the same
+                    if (classTwodirection == "LEFT")
+                    {
+                        Console.WriteLine("You start feeling hungry.");
+                        Console.WriteLine("as your walking you see a wild boar");
+                        Console.WriteLine("you start chasing it not paying attention to your surronding and run off a cliff.");
+                        Console.WriteLine("THE END.");
+                    }
+
+
+                //Right path            all right paths are the same
+                    else if (classTwodirection == "RIGHT")
+                    {
+                        Console.WriteLine("You start feeling hungry");
+                        Console.WriteLine("You find a Tree with some weird looking fruit on it");
+                        Console.Write("Type TAKE if you would eat it or LEAVE if you wouldnt take the chance: ");
+
+
+
+
+                    }
+
+                }
+
+
+                else if (classTwo == "WATER MAGIC")
+                {
+                    Console.WriteLine("Your Magic is now a WaterMagic");
+                    Console.WriteLine("Your Adventure will now begin");
+                    Console.WriteLine("...  ....  ........");
+                    Console.WriteLine("You yell as you fall to the ground. BANG");
+                    Console.WriteLine("your fine but you dont know where you are.");
+                    Console.Write("Do you walk LEFT or RIGHT: ");
+                    string classTwodirection = Console.ReadLine();
+                    classTwodirection = classTwodirection.ToUpper();
+
+                //Left options      all left outcomes are the same
+                    if (classTwodirection == "LEFT")
+                    {
+                        Console.WriteLine("You start feeling hungry.");
+                        Console.WriteLine("as your walking you see a wild boar");
+                        Console.WriteLine("you start chasing it not paying attention to your surronding and run off a cliff.");
+                        Console.WriteLine("THE END.");
+                    }
+
+                //Right path            all right paths are the same
+                    else if (classTwodirection == "RIGHT")
+                    {
+                        Console.WriteLine("You start feeling hungry");
+                        Console.WriteLine("You find a Tree with some weird looking fruit on it");
+                        Console.Write("Type TAKE if you would eat it or LEAVE if you wouldnt take the chance: ");
+
+
+
+
+                    }
+
+
+
+
+                }
+            }
+            //_________________________________________________________________________________________________________________________________________________________________________________________
+            //story path 3
+            else if (classChoice == "ARCHER")
+            {
+                Console.WriteLine("Archer really. well its your charecter");
+                Console.WriteLine("Now as a Archer you have to pick a good bow");
+                Console.Write("Your options are LONG BOW or SHORT BOW: ");
+                string classThree = Console.ReadLine();
+                classThree = classThree.ToUpper();
+
+
+                //story 3 part 2 Weapon
+
+                if (classThree == "LONG BOW")
+                {
+                    Console.WriteLine("Your Weapon is now a Long Bow");
+                    Console.WriteLine("Your Adventure will now begin");
+                    Console.WriteLine("...  ....  ........");
+                    Console.WriteLine("You yell as you fall to the ground. BANG");
+                    Console.WriteLine("your fine but you dont know where you are.");
+                    Console.Write("Do you walk LEFT or RIGHT: ");
+                    string classThreedirection = Console.ReadLine();
+                    classThreedirection = classThreedirection.ToUpper();
+
+                //Left options      all left outcomes are the same
+                    if (classThreedirection == "LEFT")
+                    {
+                        Console.WriteLine("You start feeling hungry.");
+                        Console.WriteLine("as your walking you see a wild boar");
+                        Console.WriteLine("you start chasing it not paying attention to your surronding and run off a cliff.");
+                        Console.WriteLine("THE END.");
+                    }
+
+                //Right path            all right paths are the same
+                    else if (classThreedirection == "RIGHT")
+                    {
+                        Console.WriteLine("You start feeling hungry");
+                        Console.WriteLine("You find a Tree with some weird looking fruit on it");
+                        Console.Write("Type TAKE if you would eat it or LEAVE if you wouldnt take the chance: ");
+
+
+
+
+                    }
+
+                }
+
+                else if (classThree == "SHORT BOW")
+                {
+                    Console.WriteLine("Your Weapon is now a Short Bow");
+                    Console.WriteLine("Your Adventure will now begin");
+                    Console.WriteLine("...  ....  ........");
+                    Console.WriteLine("You yell as you fall to the ground. BANG");
+                    Console.WriteLine("your fine but you dont know where you are.");
+                    Console.Write("Do you walk LEFT or RIGHT: ");
+                    string classThreedirection = Console.ReadLine();
+                    classThreedirection = classThreedirection.ToUpper();
+
+                    //Left options      all left outcomes are the same
+                    if (classThreedirection == "LEFT")
+                    {
+                        Console.WriteLine("You start feeling hungry.");
+                        Console.WriteLine("as your walking you see a wild boar");
+                        Console.WriteLine("you start chasing it not paying attention to your surronding and run off a cliff.");
+                        Console.WriteLine("THE END.");
+                    }
+
+                    //Right path            all right paths are the same
+                    else if (classThreedirection == "RIGHT")
+                    {
+                        Console.WriteLine("You start feeling hungry");
+                        Console.WriteLine("You find a Tree with some weird looking fruit on it");
+                        Console.Write("Type TAKE if you would eat it or LEAVE if you wouldnt take the chance: ");
+
+
+
+
+                    }
+                }
+
+
+
+
+            }
+        
+            //____________________________________________________________________________________________________________________________________________________________________________
+
+            
+        }
+    }
+}

@@ -1,4 +1,3 @@
-//need to finish right path
 using System;
 
 namespace text_adventure
@@ -55,9 +54,31 @@ namespace text_adventure
                         Console.WriteLine("You start feeling hungry");
                         Console.WriteLine("You find a Tree with some weird looking fruit on it");
                         Console.Write("Type TAKE if you would eat it or LEAVE if you wouldnt take the chance: ");
+                        string classOneeat = Console.ReadLine();
+                        classOneeat = classOneeat.ToUpper();
+
+                //food path
+
+                        if (classOneeat == "TAKE")
+                        {
+                            Console.WriteLine("You take the Fruit");
+                            Console.WriteLine("You Eat it and notice a strange Power boost");
+                            Console.WriteLine("A Minatar boss shows up");
+                            Console.WriteLine("You Attack it and easily win");
+                            Console.WriteLine("The End");
 
 
+                        }
 
+                        else if (classOneeat == "LEAVE")
+                        {
+                            Console.WriteLine("You decided to leave the fruit");
+                            Console.WriteLine("You are starving and a Boss approches");
+                            Console.WriteLine("You dont have the strength to attack");
+                            Console.WriteLine("To Be Continued...");
+
+
+                        }
 
                     }
 
@@ -90,8 +111,31 @@ namespace text_adventure
                         Console.WriteLine("You start feeling hungry");
                         Console.WriteLine("You find a Tree with some weird looking fruit on it");
                         Console.Write("Type TAKE if you would eat it or LEAVE if you wouldnt take the chance: ");
+                        string classOneeat = Console.ReadLine();
+                        classOneeat = classOneeat.ToUpper();
+
+                    //food path
+
+                        if (classOneeat == "TAKE")
+                        {
+                            Console.WriteLine("You take the Fruit");
+                            Console.WriteLine("You Eat it and notice a strange Power boost");
+                            Console.WriteLine("A Minatar boss shows up");
+                            Console.WriteLine("You Attack it and easily win");
+                            Console.WriteLine("To Be Continued...");
 
 
+                        }
+
+                        else if (classOneeat == "LEAVE")
+                        {
+                            Console.WriteLine("You decided to leave the fruit");
+                            Console.WriteLine("You are starving and a Boss approches");
+                            Console.WriteLine("You dont have the strength to attack");
+                            Console.WriteLine("THE END");
+
+
+                        }
 
 
                     }
@@ -136,8 +180,31 @@ namespace text_adventure
                         Console.WriteLine("You start feeling hungry");
                         Console.WriteLine("You find a Tree with some weird looking fruit on it");
                         Console.Write("Type TAKE if you would eat it or LEAVE if you wouldnt take the chance: ");
+                        string classTwoeat = Console.ReadLine();
+                        classTwoeat = classTwoeat.ToUpper();
+
+                     //food path
+
+                        if (classTwoeat == "TAKE")
+                        {
+                            Console.WriteLine("You take the Fruit");
+                            Console.WriteLine("You Eat it and notice a strange Power boost");
+                            Console.WriteLine("A Minatar boss shows up");
+                            Console.WriteLine("You Attack it and easily win");
+                            Console.WriteLine("To Be Continued...");
 
 
+                        }
+
+                        else if (classTwoeat == "LEAVE")
+                        {
+                            Console.WriteLine("You decided to leave the fruit");
+                            Console.WriteLine("You are starving and a Boss approches");
+                            Console.WriteLine("You dont have the strength to attack");
+                            Console.WriteLine("THE END");
+
+
+                        }
 
 
                     }
@@ -171,8 +238,32 @@ namespace text_adventure
                         Console.WriteLine("You start feeling hungry");
                         Console.WriteLine("You find a Tree with some weird looking fruit on it");
                         Console.Write("Type TAKE if you would eat it or LEAVE if you wouldnt take the chance: ");
+                        string classTwoeat = Console.ReadLine();
+                        classTwoeat = classTwoeat.ToUpper();
 
 
+                    //food path
+
+                        if (classTwoeat == "TAKE")
+                        {
+                            Console.WriteLine("You take the Fruit");
+                            Console.WriteLine("You Eat it and notice a strange Power boost");
+                            Console.WriteLine("A Minatar boss shows up");
+                            Console.WriteLine("You Attack it and easily win");
+                            Console.WriteLine("To Be Continued...");
+
+
+                        }
+
+                        else if (classTwoeat == "LEAVE")
+                        {
+                            Console.WriteLine("You decided to leave the fruit");
+                            Console.WriteLine("You are starving and a Boss approches");
+                            Console.WriteLine("You dont have the strength to attack");
+                            Console.WriteLine("THE END");
+
+
+                        }
 
 
                     }
@@ -221,8 +312,31 @@ namespace text_adventure
                         Console.WriteLine("You start feeling hungry");
                         Console.WriteLine("You find a Tree with some weird looking fruit on it");
                         Console.Write("Type TAKE if you would eat it or LEAVE if you wouldnt take the chance: ");
+                        string classThreeeat = Console.ReadLine();
+                        classThreeeat = classThreeeat.ToUpper();
+
+                    //food path
+
+                        if (classThreeeat == "TAKE")
+                        {
+                            Console.WriteLine("You take the Fruit");
+                            Console.WriteLine("You Eat it and notice a strange Power boost");
+                            Console.WriteLine("A Minatar boss shows up");
+                            Console.WriteLine("You Attack it and easily win");
+                            Console.WriteLine("To Be Continued...");
 
 
+                        }
+
+                        else if (classThreeeat == "LEAVE")
+                        {
+                            Console.WriteLine("You decided to leave the fruit");
+                            Console.WriteLine("You are starving and a Boss approches");
+                            Console.WriteLine("You dont have the strength to attack");
+                            Console.WriteLine("THE END");
+
+
+                        }
 
 
                     }
@@ -255,9 +369,32 @@ namespace text_adventure
                         Console.WriteLine("You start feeling hungry");
                         Console.WriteLine("You find a Tree with some weird looking fruit on it");
                         Console.Write("Type TAKE if you would eat it or LEAVE if you wouldnt take the chance: ");
+                        string classThreeeat = Console.ReadLine();
+                        classThreeeat = classThreeeat.ToUpper();
+
+                        //food path
+
+                        if (classThreeeat == "TAKE")
+                        {
+                            Console.WriteLine("You take the Fruit");
+                            Console.WriteLine("You Eat it and notice a strange Power boost");
+                            Console.WriteLine("A Minatar boss shows up");
+                            Console.WriteLine("You Attack it and easily win");
+                            Console.WriteLine("To Be Continued...");
+
+
+                        }
+
+                        else if (classThreeeat == "LEAVE")
+                        {
+                            Console.WriteLine("You decided to leave the fruit");
+                            Console.WriteLine("You are starving and a Boss approches");
+                            Console.WriteLine("You dont have the strength to attack");
+                            Console.WriteLine("THE END");
 
 
 
+                        }
 
                     }
                 }
